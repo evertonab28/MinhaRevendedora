@@ -94,7 +94,7 @@ export function AppSidebar() {
               key={item.title}
               href={item.url}
               className="flex flex-col items-center text-muted-foreground hover:text-primary">
-              <Home className="h-5 w-5" />
+              <item.icon />
               <span className="text-xs">{item.title}</span>
             </Link>
           ))}
