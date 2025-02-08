@@ -48,7 +48,7 @@ export default function ProductsList(props: ProductsListProps) {
                 <TableCell className="flex justify-self-start items-center flex-row-reverse gap-2">
                   {product.name}
                   <Image
-                    src={product.image}
+                    src={product?.image || '/images/perfume.jpg'}
                     alt="Imagem do produto"
                     width={80}
                     height={80}
